@@ -1,0 +1,191 @@
+:root{
+    --main-color: #00a7e4;
+    --secondar-color: #ff6247;
+}
+
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    text-decoration: underline;
+}
+
+.mt-100{
+    margin-top: 100px;
+}
+
+.mb-100{
+    margin-bottom: 100px;
+}
+
+.pb-80{
+    padding-bottom: 80px;
+}
+
+.f_open{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.bg-main{
+    background-color: var(--main-color);
+}
+
+.bg-second{
+    background-color: var(--secondar-color);
+}
+
+.color-white{
+    color: white;
+}
+
+.color-second{
+    color: var(--secondar-color);
+}
+
+.bg-bianco{
+    background-color: white;
+}
+
+.nav{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    height: 80px;
+}
+
+.navbar-light .navbar-brand{
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: white;
+    font-weight: 500px;
+    font-size: 13px;
+}
+
+.card-1{
+    background-image: url(./media/tech_01.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;  
+    background-position: center;
+}
+
+.card-1:hover{
+    background-position: center;
+    background-size: 110%;
+}
+.card-2{
+    background-image: url(./media/tech_02.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;  
+    background-position: center;
+}
+
+.card-2:hover{
+    background-position: center;
+    background-size: 110%;
+}
+.card-3{
+    background-image: url(./media/tech_03.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;  
+    background-position: center;
+}
+
+.card-3:hover{
+    background-position: center;
+    background-size: 110%;
+}
+
+.tag-card{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-weight: 400;
+    background-color: var(--secondar-color);
+    border-radius: 5px;
+    padding: 3px 30px;
+    font-size: 15px;
+}
+
+.card-title{
+    text-decoration:none;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-weight: 600;
+    padding-top: 20px;
+
+}
+
+
+
+.news-head{
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+
+.media-drop{
+    color: white;
+    background: linear-gradient(90deg,50% #00a7e4,50% rgb(255, 255, 255)) !important;
+    }
+
+.nav-link {
+    color: white;
+    background: linear-gradient(90deg,50% #00a7e4,50% rgb(255, 255, 255));
+}
+
+.li-footer{
+    color: grey !important;
+
+}
+
+.btn1{
+    padding: 0px 30px;
+    color: white;
+
+    
+}
+
+
+/* media query */
+
+@media screen and (min-widt:992px) {
+
+    .navbar-collapse{
+    color: white;
+    background: linear-gradient(90deg,50% #00a7e4,50% rgb(255, 255, 255));
+    }
+    
+}
+
+@media screen and (min-width:576px) {
+    .news-title{
+        margin-top: 30px;
+        margin-left: -90px;
+    }
+    
+}
+
+@media screen and (max-width:576px) {
+
+    .body-news{
+        text-align: center;
+    }
+    
+}
+
+@media screen and (max-width:576px) {
+
+    #mail-footer{
+        width: 50%;
+    }
+    
+}
