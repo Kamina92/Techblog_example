@@ -120,7 +120,7 @@ a{
     color: white;
     font-weight: 600;
     padding-top: 20px;
-
+    
 }
 
 
@@ -135,7 +135,7 @@ a{
 .media-drop{
     color: white;
     background: linear-gradient(90deg,50% #00a7e4,50% rgb(255, 255, 255)) !important;
-    }
+}
 
 .nav-link {
     color: white;
@@ -144,13 +144,13 @@ a{
 
 .li-footer{
     color: grey !important;
-
+    
 }
 
 .btn1{
     padding: 0px 30px;
     color: white;
-
+    
     
 }
 
@@ -159,13 +159,73 @@ a{
 }
 
 
+.cite{
+    font-style: oblique;
+    color: var(--secondar-color);
+    font-size: 25px;
+}
+
+.cite::after{
+    font-family: "Fontawsome 6 Free";
+    content: '\22';
+    color: black;
+    position: relative;
+    top: 10px;
+    font-size: 50px;
+}
+.cite::before{
+    font-family: "Fontawsome 6 Free";
+    content: '\22';
+    color: black;
+    position: relative;
+    bottom: 10px;
+    font-size: 50px;
+}
+
+.accordion-button{
+    text-align: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 1.25rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    text-align: left;
+    background-color: #0c6efd;
+    border: 0;
+    border-radius: 0;
+    overflow-anchor: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,border-radius .15s ease;
+}
+
+
+.accordion-button::after{
+    margin-left: 20px;
+    color: white;
+}
+
+.img-acc{
+    border: 5px solid var(--main-color);
+    border-radius: 100%;
+    padding: 5px;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+
+
+
+
 /* media query */
 
 @media screen and (min-widt:992px) {
-
+    
     .navbar-collapse{
-    color: white;
-    background: linear-gradient(90deg,50% #00a7e4,50% rgb(255, 255, 255));
+        color: white;
+        background: linear-gradient(90deg,50% #00a7e4,50% rgb(255, 255, 255));
     }
     
 }
@@ -179,7 +239,7 @@ a{
 }
 
 @media screen and (max-width:576px) {
-
+    
     .body-news{
         text-align: center;
     }
@@ -187,7 +247,7 @@ a{
 }
 
 @media screen and (max-width:576px) {
-
+    
     #mail-footer{
         width: 50%;
         font-size: 12px;
